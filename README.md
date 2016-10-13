@@ -1,6 +1,6 @@
-# _JavaScript Template_
+# _Angular Template_
 
-#### _JavaScript Template for Epicodus_
+#### _Angular Template for Epicodus_
 
 #### By _**Megan Kaluza**_
 

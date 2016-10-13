@@ -1,28 +1,26 @@
-<!DOCTYPE html>
 <html>
-    <head>
-      <link rel="stylesheet" href="build/css/vendor.css">
-      <link rel="stylesheet" href="build/css/styles.css">
-      <script src="build/js/vendor.min.js"></script>
-      <script type="text/javascript" src="build/js/app.js"></script>
-      <title>JS Template</title>
-    </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="jumbotron">
-          <h1>JS<img src="img/like.png" alt="heart" />Template</h1>
-        </div>
-          <h1>
-            JS Template
-          </h1>
-          <label for="paragraph">Name:</label>
-          <input id="number" type="text" name="number" value="">
-          <button id="submit" type="button" name="button">Submit</button>
-          <div class="output">
+  <head>
+    <title>Angular 2 Skeleton</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="build/js/vendor.min.js"></script>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
 
-        </div>
-      </div>
-    </div>
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
   </body>
 </html>
