@@ -28,11 +28,11 @@ _No known bugs at this time_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_jQuery_
-_JavaScript_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _jQuery_
+* _JavaScript_
 
 ### License
 
