@@ -8,21 +8,16 @@
 
 * _npm install_
 * _npm init_
-* _npm install gulp --save-dev_
-* _npm install browserify --save-dev_
-* _npm install vinyl-source-stream --save-dev_
-* _npm install gulp-concat --save-dev_
-* _npm install uglify --save-dev_
-* _npm install gulp-util --save-dev_
-* _npm install del --save-dev_
-* _npm install jshint --save-dev_
-* _npm install gulp-jshint --save-dev_
+* _bower install_
+* _gulp build_
+* _gulp serve_
+
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-    *_To clone using Git, use the following terminal command:_
-    _https://github.com/megankaluza/javascript-template.git_
+    * _To clone using Git, use the following terminal command:_
+    _https://github.com/megankaluza/angular2_skeleton_template.git_
 * _Open in text editor of your choice_
 
 ## Known Bugs
