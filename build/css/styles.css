@@ -1,9 +1,4 @@
-.jumbotron {
-  background-color: #BAFF8C;
-  border: 1px solid black;
-  padding: 40px 80px; }
-  .jumbotron h1 {
-    color: white;
-    text-align: center; }
+h1 {
+  color: blue; }
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLmp1bWJvdHJvbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNCQUZGOEM7XG4gIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xuICBwYWRkaW5nOiA0MHB4IDgwcHg7XG4gIGgxIHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBLEFBQUEsVUFBVSxDQUFDO0VBQ1QsZ0JBQWdCLEVBQUUsT0FBUTtFQUMxQixNQUFNLEVBQUUsZUFBZ0I7RUFDeEIsT0FBTyxFQUFFLFNBQVUsR0FLcEI7RUFSRCxBQUlFLFVBSlEsQ0FJUixFQUFFLENBQUM7SUFDRCxLQUFLLEVBQUUsS0FBTTtJQUNiLFVBQVUsRUFBRSxNQUFPLEdBQ3BCIiwibmFtZXMiOltdfQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XG4gIGNvbG9yOiBibHVlO1xufVxuIl0sIm1hcHBpbmdzIjoiQUFBQSxBQUFBLEVBQUUsQ0FBQztFQUNELEtBQUssRUFBRSxJQUFLLEdBQ2IiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */
