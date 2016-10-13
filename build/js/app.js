@@ -10,7 +10,7 @@ Template.prototype.getName = function () {
 exports.templateModule = Template;
 
 },{}],2:[function(require,module,exports){
-var Template = require('./../js/template.js').templateModule;
+var Template = require('./../js/ipsum.js').templateModule;
 
 $(document).ready(function(){
   $("#getName").click(function(){
@@ -20,4 +20,4 @@ $(document).ready(function(){
   });
 });
 
-},{"./../js/template.js":1}]},{},[2]);
+},{"./../js/ipsum.js":1}]},{},[2]);

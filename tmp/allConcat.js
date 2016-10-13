@@ -1,4 +1,4 @@
-var Template = require('./../js/template.js').templateModule;
+var Template = require('./../js/ipsum.js').templateModule;
 
 $(document).ready(function(){
   $("#getName").click(function(){
