@@ -4,12 +4,12 @@ import { Component } from '@angular/core';
   selector: 'pies',
   template: `
   <h3>Here are my favorite pies!</h3>
-  <div *ngFor="let currentPie of favoritePies">
+  <div *ngFor="let currentPie of dopePies">
     <p>{{currentPie}}</p>
   </div>
   `
 })
 
 export class PiesListComponent {
-  favoritePies: string [] = ["Apple", "Banana Cream", "Blackberry"];
+  dopePies: string [] = ["Apple", "Banana Cream", "Blackberry"];
 }
