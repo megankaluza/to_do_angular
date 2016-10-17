@@ -36,6 +36,11 @@ hr {
   border: 1px solid $black;
 }
 
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .taskBox {
   background-color: $gray;
   /*border: 1px solid $black;*/
