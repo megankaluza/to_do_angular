@@ -6,13 +6,15 @@ import { Task } from './task.model';
   template: `
   <div class="container">
     <h1>Megan && Alex's To-Do List</h1>
+    <hr>
     <task-list
       [childTaskList]="masterTaskList"
       (clickSender)="showDetails($event)"
-     ></task-list>
+     >
+    </task-list>
     <edit-task
-      [childSelectedTask]="selectedTask"
-      (doneClickedSender)="finishedEditing()"
+    [childSelectedTask]="selectedTask"
+    (doneClickedSender)="finishedEditing()"
     ></edit-task>
      <new-task
    (newTaskSender)="addTask($event)"

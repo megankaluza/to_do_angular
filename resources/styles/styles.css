@@ -1,19 +1,44 @@
-h1 {
-  color: blue;
+$ivory: #ECEBE4;
+$black: #1C1C1C;
+$gray: #EEF0F2;
+$az: #DBF9F4;
+$bubbles: #E6FDFF;
+$rose: #C14953;
+
+
+body {
+  width: 100%;
+  background-color: $ivory;
+  text-align: center;
+    h1 {
+      color: $black;
+      font-family: 'Tangerine', cursive;
+    }
+    h3 {
+      font-family: 'Wendy One', sans-serif;
+    }
+    h4 {
+      font-family: 'Tangerine', cursive;
+      font-size: 2em;
+    }
 }
 
-.pie {
-  border: 1px solid blue;
-  border-radius: 8px;
-  padding: 10px;
-  width: 25%;
-  background-color: LightGreen;
+button {
+  background-color: $rose;
+  box-shadow: 2px 2px 10px $black;
+  font-family: 'Wendy One', sans-serif;
+  border: none;
+  border-radius: 20%;
+  margin-bottom: 2%;
 }
 
-.album {
-  border: 1px solid blue;
-  border-radius: 8px;
-  padding: 10px;
-  width: 25%;
-  background-color: LightBlue;
+hr {
+  border: 1px solid $black;
+}
+
+.taskBox {
+  background-color: $gray;
+  /*border: 1px solid $black;*/
+  box-shadow: 5px 5px 10px;
+  margin-top: 5%;
 }
