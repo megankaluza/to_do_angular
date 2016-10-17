@@ -10,8 +10,12 @@ import { Task } from './task.model';
       <input #newDescription>
     </div>
     <div>
-      <label>Enter Task ID:</label>
-      <input #newId>
+      <label>Enter Task Category:</label>
+      <select #newId>
+        <option value="Hobby">Hobby</option>
+        <option value="Home" selected="selected">Home</option>
+        <option value="Work">Work</option>
+      </select>
     </div>
     <div>
       <label>Select Priority Level:</label>
@@ -34,7 +38,7 @@ import { Task } from './task.model';
 
 export class NewTaskComponent {
   @Output() newTaskSender = new EventEmitter();
-  addClicked(description: string, id: number, priority: string) {
+  addClicked(description: string, id: string, priority: string) {
     var newTaskToAdd: Task = new Task(description, id, priority);
     this.newTaskSender.emit(newTaskToAdd);
   }

@@ -5,9 +5,7 @@ import { Task } from './task.model';
   selector: 'my-app',
   template: `
   <div class="container">
-    <h1>My First Angular 2 App</h1>
-    <new-task>(newTaskSender)="addTask($event)"</new-task>
-    <pies></pies>
+    <h1>Megan && Alex's To-Do List</h1>
     <task-list
       [childTaskList]="masterTaskList"
       (clickSender)="showDetails($event)"
@@ -16,8 +14,8 @@ import { Task } from './task.model';
       [childSelectedTask]="selectedTask"
       (doneClickedSender)="finishedEditing()"
     ></edit-task>
-    <new-task
-  (newTaskSender)="addTask($event)"
+     <new-task
+   (newTaskSender)="addTask($event)"
   ></new-task>
   </div>
   `
@@ -25,10 +23,10 @@ import { Task } from './task.model';
 
 export class AppComponent {
   public masterTaskList: Task[] = [
-      new Task("Create To-Do List app.", 0, "medium"),
-      new Task("Learn Kung Fu.", 1, "medium"),
-      new Task("Rewatch all the Lord of the Rings movies.", 2, "medium"),
-      new Task("Do the laundry.", 3, "medium")
+      new Task("Watch Stranger Things on Netflix.", "Hobby", "medium"),
+      new Task("Flower shopping for my significant other.", "Home", "high"),
+      new Task("Catching butterflies.", "Hobby", "low"),
+      new Task("Drink coffee.", "Work", "high")
   ];
   selectedTask: Task = null;
   showDetails(clickedTask: Task) {
