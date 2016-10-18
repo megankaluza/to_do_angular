@@ -5,7 +5,7 @@ import { Task } from './task.model';
   selector: 'my-app',
   template: `
   <div class="container">
-    <h1>Megan & Alex's To-Do List</h1>
+    <h1>Megan & Alex's To-Do List  <img src="resources/img/list.png" alt="list"></h1>
     <hr>
     <edit-task
     [childSelectedTask]="selectedTask"
@@ -25,6 +25,7 @@ import { Task } from './task.model';
    (newTaskSender)="addTask($event)"
   ></new-task>
   </div>
+  <footer>&copy;Megan & Alex 2016</footer>
   `
 })
 

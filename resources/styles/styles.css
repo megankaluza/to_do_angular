@@ -1,14 +1,18 @@
 $ivory: #ECEBE4;
 $black: #1C1C1C;
-$gray: #EEF0F2;
+$gray: #D8DBE2;
 $az: #DBF9F4;
 $bubbles: #E6FDFF;
 $rose: #C14953;
+$leaf: #60D394;
+$popcorn: #FFD97D;
+$lime: #AAF683;
+$tangerine: #FF9B85;
 
 
 body {
   width: 100%;
-  background-color: $ivory;
+  background-color: $gray;
   text-align: center;
     h1 {
       color: $black;
@@ -18,8 +22,7 @@ body {
       font-family: 'Wendy One', sans-serif;
     }
     h4 {
-      font-family: 'Tangerine', cursive;
-      font-size: 2em;
+      font-family: 'Inconsolata', monospace;
     }
 }
 
@@ -36,14 +39,18 @@ hr {
   border: 1px solid $black;
 }
 
+footer {
+    font-family: 'Tangerine', cursive;
+}
+
 .filter {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .taskBox {
-  background-color: $gray;
-  /*border: 1px solid $black;*/
+  background-color: $leaf;
+  border-radius: 50%;
   box-shadow: 5px 5px 10px;
   margin-top: 5%;
 }

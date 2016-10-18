@@ -35,7 +35,7 @@ import { Task } from './task.model';
       this.selectedCompleteness = optionFromMenu;
       console.log(this.selectedCompleteness);
     }
-   priorityChange(optionFromMenu) {
+    priorityChange(optionFromMenu) {
      this.selectedPriority = optionFromMenu;
       console.log(this.selectedPriority);
      }
