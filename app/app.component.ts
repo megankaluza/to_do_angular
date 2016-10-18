@@ -5,7 +5,7 @@ import { Task } from './task.model';
   selector: 'my-app',
   template: `
   <div class="container">
-    <h1>Megan && Alex's To-Do List</h1>
+    <h1>Megan & Alex's To-Do List</h1>
     <hr>
     <edit-task
     [childSelectedTask]="selectedTask"
@@ -30,10 +30,10 @@ import { Task } from './task.model';
 
 export class AppComponent {
   public masterTaskList: Task[] = [
-      new Task("Watch Stranger Things on Netflix.", "Hobby", "medium"),
-      new Task("Flower shopping for my significant other.", "Home", "high"),
-      new Task("Catching butterflies.", "Hobby", "low"),
-      new Task("Drink coffee.", "Work", "high")
+      new Task("Watch Stranger Things on Netflix.", "Hobby", "Medium"),
+      new Task("Flower shopping for my significant other.", "Home", "High"),
+      new Task("Catching butterflies.", "Hobby", "Low"),
+      new Task("Drink coffee.", "Work", "High")
   ];
   selectedTask: Task = null;
   showDetails(clickedTask: Task) {
