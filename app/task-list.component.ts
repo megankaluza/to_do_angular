@@ -5,14 +5,15 @@ import { Task } from './task.model';
   selector: 'task-list',
   template: `
     <select (change)="onChange($event.target.value)" class="filter">
-      <option value="all">Show All</option>
+      <option value="all" selected="selected">Show All</option>
       <option value="isDone">Show Done</option>
-      <option value="notDone" selected="selected">Show Not Done</option>
+      <option value="notDone">Show Not Done</option>
     </select>
     <select (change)="priorityChange($event.target.value)" class="filter">
+    <option value="all" selected="selected">Show All</option>
       <option value="High">High</option>
       <option value="Medium">Medium</option>
-      <option value="Low" selected="selected">Low</option>
+      <option value="Low">Low</option>
     </select>
    <div *ngFor="let currentTask of childTaskList | completeness:selectedCompleteness | priority:selectedPriority">
       <div class="taskBox">
@@ -29,7 +30,7 @@ import { Task } from './task.model';
     @Input() childTaskList: Task[];
     @Output() clickSender = new EventEmitter();
     public selectedCompleteness: string = 'notDone';
-    public selectedPriority: string = 'High';
+    public selectedPriority: string = 'all';
     onChange(optionFromMenu) {
       this.selectedCompleteness = optionFromMenu;
       console.log(this.selectedCompleteness);

@@ -30,7 +30,7 @@ export class PriorityPipe implements PipeTransform {
         }
       }
       return output;
-    } else {
+    } else if (desiredPriority == "all") {
       return input;
     }
   }

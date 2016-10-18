@@ -9,14 +9,6 @@ import { Task } from './task.model';
     <input *ngIf="task.done === false" type="checkbox" (click)="toggleDone(true)"/>
     <label>{{ task.description }}</label>
   </div>
-    <!--<div>
-  <label>{{ task.priority }}</label>
-    <select>
-      <option *ngIf="task.priority === High" type="select" selected="selected" (change)="togglePriority(High)"/>
-      <option *ngIf="task.priority === Medium" type="select" (change)="togglePriority(Medium)"/>
-      <option *ngIf="task.priority === Low" type="select" (change)="togglePriority(Low)"/>
-    </select>
-  </div>-->
   `
 })
 export class TaskComponent {
